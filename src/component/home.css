@@ -1,4 +1,9 @@
 .navbar{
+    
+    height: 75px;
+    background-color: rgb(220, 246, 246);
+}
+.navbar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -14,6 +19,38 @@
    list-style: none;
    margin: 0;
    padding: 0;
+   margin-right: 2rem;
    gap: 1.2rem;
    
+}
+.bground{
+    height: 20rem;
+    width: 16rem;
+    margin-top: 6rem;
+    padding-left: 0px;
+    display: flex;
+    position: absolute;
+    background-color: rgb(183, 171, 171);
+}
+.imgb{
+       display: flex;
+}
+.imo{
+    width: 300px;
+    height: 330px;
+    position: relative;
+    padding-left: 100px;
+    margin-top: 4rem;
+}
+.not{
+    width: 40%;
+    margin-left: 5rem;
+    grid-auto-rows: 2rem;
+}
+.not button{
+    margin-top: 1rem;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
 }
